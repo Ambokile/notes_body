@@ -9,9 +9,9 @@ app_1.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: 'home.html',
    // controller: 'HomeCtrl'
   })
-  .state('register', {
-    url: '/register',
-    templateUrl: 'register.html',
+  .state('info', {
+    url: '/info',
+    templateUrl: 'info.html',
    // controller: 'HomeCtrl'
   })
   

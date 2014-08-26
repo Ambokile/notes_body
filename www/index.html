@@ -23,7 +23,12 @@
   </head>
 
   <body ng-app="home">
-    <ion-nav-bar class="nav-title-slide-ios7 bar-positive"></ion-nav-bar>
+     <ion-nav-bar class="bar-stable nav-title-slide-ios7 bar-positive">
+      <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
+        Back
+      </ion-nav-back-button>
+    </ion-nav-bar>
+   
          <ion-nav-view animation="slide-left-right">
 </ion-nav-view>
       
@@ -37,38 +42,38 @@
      
      <div class="list">
 
-    <a class="item item-avatar" href="#/home/info">
+    <a class="item item-avatar" href="#/info">
       <img src ="img/computer.jpg" width="236" height="213">
       <h2>Computer Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
-	<a class="item item-avatar" href="#">
+	<a class="item item-avatar" href="#/info">
       <img src="img/telecom.jpg" width="236" height="213">
       <h2>Telecommunication Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
-	<a class="item item-avatar" href="#">
+	<a class="item item-avatar" href="#/info">
       <img src="img/civil.jpg" width="236" height="213">
       <h2>Civil Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
-<a class="item item-avatar" href="#">
+<a class="item item-avatar" href="#/info">
       <img src="img/elect.jpg" width="236" height="213">
       <h2>Electrical Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
 
-<a class="item item-avatar" href="#">
+<a class="item item-avatar" href="#/info">
       <img src="img/mech.jpg" width="236" height="213">
       <h2>Mechanical Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
-<a class="item item-avatar" href="#">
+<a class="item item-avatar" href="#/info">
       <img src="img/lab.jpg" width="236" height="213">
       <h2>Labolatory Department</h2>
       <p>Dar es salaam institute of technology.</p>
     </a>
-<a class="item item-avatar" href="#">
+<a class="item item-avatar" href="#/info">
       <img src="img/ditso.jpg" width="236" height="213">
       <h2>DITSO</h2>
       <p>Dar es salaam institute of technology.</p>
@@ -83,10 +88,6 @@
    
    <script id ="info.html" type="text/ng-template">
 	     <ion-view title="DIT NOTES BODY">
-		 <ion-nav-buttons side="right">
-      <button class="button button-icon icon ion-ios7-plus"></button>
-    </ion-nav-buttons>
-		 
     <ion-content ng-controller="HomeCtrl">
  
     </ion-content>
