@@ -15,6 +15,11 @@ app_1.config(function($stateProvider, $urlRouterProvider) {
    // controller: 'HomeCtrl'
   })
   
+   .state('send_info', {
+    url: '/send_info',
+    templateUrl: 'send_info.html',
+   // controller: 'HomeCtrl'
+  })
   $urlRouterProvider.otherwise("/");
 
 })

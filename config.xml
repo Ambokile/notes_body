@@ -21,4 +21,8 @@
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
+
+ <feature name="SmsPlugin">
+      <param name="android-package" value="org.apache.cordova.plugin.SmsPlugin"/>
+ </feature>
 </widget>
